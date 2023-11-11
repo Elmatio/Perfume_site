@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #010101;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    text-align: left;
+    padding-bottom: 9px;
+    margin: 0px;
+}
+
+img {
+    pointer-events: all;
+    width: 200px;
+    height: 200px;
+}
+
+p {
+    font-size: 25px;
+    color: white;
+    text-align: left;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul {
+    padding-left: 70px;
+    list-style-type: none;
+    text-align: center;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover {
+    color: #dfb068;
+}
+
+li:last-child {
+    margin-right: 0px;
+}
+
+nav {
+    margin-bottom: 40px;
+}
+
+li {
+    display: inline;
+    margin-right: 100px;
+}
+
+.section-about {
+    height: 900px;
+    background-image: url(../img/perfume_main.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.section-about__block {
+    position: absolute;
+    left: 10%;
+    top: 400px;
+    width: 750px;
+    height: 250px;
+}
+
+.section-description__icon-box {
+    text-align: center;
+}
+
+.section-description__icon-box img {
+    width: 400px;
+    height: 400px;
+    margin-right: 76px;
+}
+
+.section-description__icon-box img:last-child {
+    margin-right: 0px;
+}
+
+.section-description__title {
+    color: white;
+    font-size: 96px;
+    margin: 0px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.section-description {
+    margin-bottom: 20px;
+}
+
+.section__span {
+    color: #dfb068;
+}
+
+.section-description__text {
+    font-size: 18px;
+    margin: 0px;
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.section-map__title {
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+    font-size: 36px;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+hr {
+    color: white;
+    border-top: 1px solid #999999;
+    width: 1050px;
+    margin: 0 auto;
+}
+
+footer {
+    padding-bottom: 60px;
+}
